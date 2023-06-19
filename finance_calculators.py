@@ -57,8 +57,8 @@ if user_choice == "investment":
 else:
     print(f"\nYou have chosen {user_choice}. Please answer the following questions.\nOnly enter numbers without £ or % signs.\nDo not use commas ','when entering large numbers.")
     
-    house_price = int(input("\nWhat is the current price of the house?\t"))
-    interest_rate = float(input("\nHow much interest will you pay?\t"))
+    house_price = int(input("\nWhat is the current price of the house?\t\t"))
+    interest_rate = float(input("\nHow much interest will you pay?\t\t"))
 
 # From a UX point of view, I thought it better to ask the user the number of years needed to pay off the mortgage and then let the programme calculate the months.
     years = int(input("\nHow many years will you need to pay off the mortgage?\t"))

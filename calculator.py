@@ -61,6 +61,7 @@ while True:
         equation = str(number_1) + " ÷ " + str(number_2)
         print(equation, file=open("equations.txt", 'a'))
         result = number_1 / number_2
+        result = round(result, 3)
         print(f"\nThe answer is {result}")
 
 # else statement flags invalid entry, enables user to restart calculation.  
@@ -69,7 +70,7 @@ while True:
         continue
 
 # Display user’s calculations and close file.
-print("\nHere are your calculations.")
+print("\nHere are your calculations:\n")
 file = open("equations.txt", 'r')
 print(file.read())
 file.close()
@@ -127,6 +128,7 @@ while True:
     elif calculation == "d":
         equation = str(number_1) + " ÷ " + str(number_2)
         result = number_1 / number_2
+        result = round(result, 3)
         print(f"\n{equation} = {result}", file = open(filename, 'a'))
 
     else:

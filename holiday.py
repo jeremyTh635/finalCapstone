@@ -32,10 +32,21 @@ while True:
         print("Please enter a city from the list or spell the name correctly.")
         continue
 
+while True:
+    try:
+        num_nights = int(input("\nHow many nights do you want to stay at your hotel?\t"))
+        break
+    except ValueError:
+        print("Please enter the number as a number, not a word.")
+        continue
 
-num_nights = int(input("\nHow many nights do you want to stay at your hotel?\t"))
-
-rental_days = int(input("\nHow many days do you want to hire a car?\t "))
+while True:
+    try:
+        rental_days = int(input("\nHow many days do you want to hire a car?\t "))
+        break
+    except ValueError:
+        print("Please enter the number as a number, not a word.")
+        continue
 
 
 # Function to retrieve flight cost from dictionary.
