@@ -1,7 +1,7 @@
 # finalCapstone
-## A selection of projects that I completed on my recent bootcamp with Hyperion.dev
+## This repository features several Python projects I completed during my recent bootcamp with Hyperion.dev.
 
-At present, this repository contains the following files:
+At present, it contains the following files:
 1.	**task_manager.py**
 2.	**calculator.py**
 3.	**holiday.py**
